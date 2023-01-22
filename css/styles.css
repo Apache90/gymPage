@@ -324,7 +324,7 @@ img {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  bottom: 1.5rem;
+  bottom: -rem;
 }
 
 .button:after {
@@ -760,9 +760,11 @@ img {
   .choose_img{
     width: 195px;
   }
+  
   .pricing_container{
-    grid-template-columns: 250px;
+    grid-template-columns: 280px;
   }
+
   .pricing_card{
     padding: 1.5rem;
   }
@@ -832,7 +834,7 @@ img {
 }
 
 /* For large devices */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1023px){
   .nav{
     height: calc(var(--header-height)+ 2rem);
   }
@@ -845,13 +847,14 @@ img {
   }
   .nav_list{
     flex-direction: row;
-    padding: 2rem;
-    align-items: initial;
-    column-gap: 5rem;
+    padding: .5rem;
+    align-items: center;
+    column-gap: 3rem;
   }
   .section{
     padding: 7rem 0 0;
   }
+
   .home_container{
     grid-template-columns: repeat(3, max-content);
     align-items: initial;
@@ -944,7 +947,7 @@ img {
   .home_data{
     padding-top: 3rem;
   }
-  .home_images{
+  .home_img{
     transform: translateX(-9rem);
   }
   .home_img{
@@ -967,6 +970,50 @@ img {
     grid-template-columns: repeat(4, 245px);
     padding: 3rem 0;
   }
-  
+  .program_card{
+    padding: 2rem;
+  }
+  .program_description{
+    font-size: var(--normal-font-size);
+  }
+  .choose_container{
+    column-gap: 8rem;
+  }
+  .choose_img{
+    width: 450px;
+    margin: 0 0 0 auto;
+  }
+  .choose_triangle{
+    height: 800px;
+  }
+  .choose_img{
+    position: relative;
+  }
+  .choose_data{
+    grid-template-columns: repeat(2, max-content);
+    gap: 2.5rem 8rem;
+  }
+  .choose_description{
+    width: 418px;
+    margin-bottom: 3.5rem;
+  }
+  .pricing_container{
+    padding-top: 3rem;
+    grid-template-columns: repeat(3,320px);
+  }
+  .pricin_card{
+    padding: 2rem 3.5rem;
+    row-gap: 2.5rem;
+  }
+  .calculate_description{
+    width: 415px;
+  }
+  .calculate_form{
+    width: 505px;
+  }
+  .calculate_img{
+    width: 300px;
+  }
+
 }
 
