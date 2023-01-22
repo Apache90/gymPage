@@ -871,7 +871,7 @@ img {
   .home_img{
     width: 500px;
     transform: translateX(-6rem);
-    left: .5rem;
+    right: 3rem;
   }
   .home_triangle{
     height: 700px;
@@ -927,6 +927,14 @@ img {
     grid-template-columns: repeat(4, 225px);
     gap: 2.5rem;
   }
+  .pricing_container{
+    padding-top: 3rem;
+    grid-template-columns: repeat(3,320px);
+  }
+  .pricin_card{
+    padding: 2rem 3.5rem;
+    row-gap: 2.5rem;
+  }
   .footer_form{
     flex-direction: column;
   }
@@ -939,7 +947,7 @@ img {
     margin-top: 3rem;
   }
 }
-@media screen and (min-width:1150px){
+@media screen and (min-width:1200px){
   .container{
     margin-left: auto;
     margin-right: auto;
