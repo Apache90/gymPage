@@ -760,6 +760,9 @@ img {
   .choose_img{
     width: 195px;
   }
+  .home_images{
+    justify-content: center;
+  }
   
   .pricing_container{
     grid-template-columns: 280px;
@@ -870,8 +873,7 @@ img {
   }
   .home_img{
     width: 500px;
-    transform: translateX(-6rem);
-    right: 3rem;
+    transform: translateX(-2rem);
   }
   .home_triangle{
     height: 700px;
@@ -956,11 +958,9 @@ img {
     padding-top: 3rem;
   }
   .home_img{
-    transform: translateX(-9rem);
-  }
-  .home_img{
     width: 700px;
-    transform: translateX(2rem);
+    transform: translateX(1rem);
+    
   }
   .home_triangle{
     height: 995px;
