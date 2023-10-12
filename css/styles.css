@@ -190,7 +190,7 @@ img {
   column-gap: .5rem;
 }
 .nav_logo img{
-  width: 8rem;
+  width: 10rem;
 }
 .nav_toggle{
   font-size: 1.25rem;
@@ -959,9 +959,9 @@ img {
     padding-top: 3rem;
   }
   .home_img{
-    width: 700px;
+    width: 600px;
     transform: translateX(1rem);
-    
+    left: 23px;
   }
   .home_triangle{
     height: 995px;
