@@ -190,7 +190,7 @@ img {
   column-gap: .5rem;
 }
 .nav_logo img{
-  width: 10rem;
+  width: 8rem;
 }
 .nav_toggle{
   font-size: 1.25rem;
@@ -630,12 +630,13 @@ img {
 }
 .footer_logo{
   align-items: center;
+  justify-content: center;
   column-gap: .5rem;
   font-weight: var(--font-bold);
   margin-bottom: 1.5rem;
 }
 .footer_logo img{
-  width: 18.5rem;
+  width: 18rem;
 }
 .footer_description{
   margin-bottom: 2rem;
@@ -774,6 +775,9 @@ img {
   }
   .footer_content{
     grid-template-columns: 1fr;
+  }
+  .footer_logo{
+    align-items: center;
   }
 }
 
