@@ -11,10 +11,10 @@
   
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(37, 95%, 58%);
+  --first-color: hsl(50, 90%, 49%);
   --first-color-light: hsl(37, 100%, 73%);;
   --first-color-alt: hsl(37, +86%, 58%);
-  --first-color-dark: rgb(224, 158, 52);
+  --first-color-dark: rgb(255, 233, 63);
   --first-color-gray: hsl(79, 6%, 64%);
   --title-color: hsl(0, 0%, 7%);
   --title-color-black: hsl(180, 4%, 12%);
@@ -132,7 +132,7 @@ img {
   font-family: var(--second-font);
   font-weight: 400;
   letter-spacing: 1.5px;
-  color: var(--first-color-dark);
+  color: var(--first-color);
   transform: rotate(-3deg);
 }
 
