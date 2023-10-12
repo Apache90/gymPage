@@ -285,15 +285,16 @@ img {
   right: 0;
   bottom: 0;
   clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  z-index: -1;
 }
 
 .home_triangle-1{
   width: 105px;
-  background-color: var(--first-color);
+  background-color: black;
 }
 .home_triangle-2{
   width: 205px;
-  background-color: var(--first-color-alt);
+  background-color: grey;
 }
 .home_triangle-3{
   width: 305px;
