@@ -191,6 +191,7 @@ img {
 }
 .nav_logo img{
   width: 8rem;
+  margin-top: 2px;
 }
 .nav_toggle{
   font-size: 1.25rem;
@@ -963,9 +964,10 @@ img {
     padding-top: 3rem;
   }
   .home_img{
-    width: 600px;
+    width: 500px;
     transform: translateX(1rem);
     left: 23px;
+    margin-top: 60px;
   }
   .home_triangle{
     height: 995px;
